@@ -1,0 +1,10 @@
+.container {
+	display: flex;
+	margin: 30px 0;
+}
+
+.span1 {
+	display: block;
+	margin: 0 20px;
+	width: 15%;
+}

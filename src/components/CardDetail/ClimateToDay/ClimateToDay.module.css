@@ -1,0 +1,33 @@
+.container {
+	display: flex;
+}
+
+.container section {
+	display: flex;
+	flex-direction: column;
+	padding: 3rem 0rem;
+	justify-content: space-around;
+}
+
+.temp {
+	font-size: 3.5rem;
+	font-weight: 600;
+	margin-bottom: 0.4rem;
+}
+
+.climate {
+	font-size: 1.2rem;
+	font-weight: 600;
+}
+
+img {
+	width: 12rem;
+	height: 12rem;
+}
+
+@media (max-width: 600px) {
+	img {
+		width: 10rem;
+		height: 10rem;
+	}
+}

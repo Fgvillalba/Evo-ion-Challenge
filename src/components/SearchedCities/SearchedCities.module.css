@@ -1,0 +1,30 @@
+.container {
+	width: 90%;
+	/* display: flex;
+	flex-wrap: wrap; */
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	max-height: 65%;
+	gap: 40px;
+	justify-items: center;
+	margin: 0;
+	margin-bottom: 0.5rem;
+	overflow-y: scroll;
+	-ms-overflow-style: none; /* IE and Edge */
+	scrollbar-width: none; /* Firefox */
+}
+
+.container::-webkit-scrollbar {
+	display: none; /* Chrome */
+}
+
+@media (max-width: 600px) {
+	.container {
+		display: flex;
+		flex-direction: column;
+		width: 90%;
+		height: fit-content;
+		overflow-y: unset;
+		margin: 2rem 0;
+	}
+}

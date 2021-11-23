@@ -1,0 +1,50 @@
+.container {
+	background: white;
+	/* width: fit-content; */
+	padding: 1rem;
+	padding-right: 2rem;
+	padding-bottom: 0.2rem;
+	height: fit-content;
+	display: flex;
+	flex-direction: column;
+}
+
+.container h3 {
+	/* padding-left: 1.2rem; */
+	font-weight: 300;
+	font-size: 1.3rem;
+	padding: 0;
+	margin: 0;
+}
+
+.container img {
+	width: 10rem;
+	height: 10rem;
+}
+
+.imageContainer {
+	display: flex;
+	width: fit-content;
+}
+
+.cardSide {
+	/* padding-left: 1rem; */
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	width: fit-content;
+	margin: 0;
+}
+
+.cardSide h4 {
+	padding-top: 0.5rem;
+	font-size: 1.2rem;
+	font-weight: 400;
+	margin: 0;
+}
+
+.cardSide span {
+	font-size: 2.5rem;
+	font-weight: 500;
+	padding-bottom: 0.5rem;
+}
